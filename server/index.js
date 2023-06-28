@@ -14,7 +14,9 @@ import postRoutes from "./routes/posts.js"
 import { register } from "./controllers/auth.js";
 import { createPost } from "./controllers/posts.js";
 import { verifyToken } from "./middleware/auth.js";
-
+import User from "./models/User.js";
+import Post from "./models/Post.js";
+import { users, posts } from "./data/index.js";
 
 /* CONFIGURATIONS */
 const __filename = fileURLToPath(import.meta.url); // grabs file url from the modules so that we can use the following directory name
@@ -59,7 +61,13 @@ mongoose
         useUnifiedTopology: true,
 }).then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
-}).catch((error) => console.log(`${error} did not connect`));
+
+    /* ADD DATA - uncomment when we need to insert additional data (leaving it open creates dup */
+    // User.insertMany(users);
+    // Post.insertMany(posts);
+
+})
+.catch((error) => console.log(`${error} did not connect`));
 
 
 
