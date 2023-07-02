@@ -1,31 +1,31 @@
 // color design tokens export
 export const colorTokens = {
     grey: {
-      0: "#FFFFFF",
+      0: "#FFFFFF", //white
       10: "#F6F6F6",
-      50: "#F0F0F0",
-      100: "#E0E0E0",
-      200: "#C2C2C2",
-      300: "#A3A3A3",
-      400: "#858585",
-      500: "#666666",
-      600: "#4D4D4D",
-      700: "#333333",
-      800: "#1A1A1A",
-      900: "#0A0A0A",
-      1000: "#000000",
+      50: "#F0F0F0", //Gray94 color
+      100: "#E0E0E0", //Gray88 color
+      200: "#C2C2C2", //Gray76 color
+      300: "#A3A3A3", //Gray64 color
+      400: "#858585", //Gray52 color
+      500: "#666666", //Gray40 color
+      600: "#4D4D4D", //Gray30 color
+      700: "#333333", //Gray20 color
+      800: "#1A1A1A", //Gray10 color
+      900: "#0A0A0A", //Gray4 color
+      1000: "#000000", //black
     },
     primary: {
-      50: "#E6FBFF",
-      100: "#CCF7FE",
-      200: "#99EEFD",
-      300: "#66E6FC",
-      400: "#33DDFB",
-      500: "#00D5FA",
-      600: "#00A0BC",
-      700: "#006B7D",
-      800: "#00353F",
-      900: "#001519",
+      50: "#FFF1EC",          //"#E6FBFF", 
+      100: "#FEE9E1",          //"#CCF7FE",
+      200: "#FFE0CB",           //"#99EEFD",
+      300: "#FFD4B7",           //"#66E6FC",
+      400: "#FFC8AE",          //"#33DDFB",
+      500: "#FFC1A4",         //"#00D5FA",
+      600: "#F6B697",          // "#00A0BC",
+      700: "#FFC1A4",         //"#006B7D",
+      800: "#FDD8C5D",         //"#00353F",
+      900: "#C27F58",         //"#001519",
     },
   };
   
