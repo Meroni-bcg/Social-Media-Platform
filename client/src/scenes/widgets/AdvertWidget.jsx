@@ -12,7 +12,7 @@ const AdvertWidget = () => {
     <WidgetWrapper>
       <FlexBetween>
         <Typography color={dark} variant="h5" fontWeight="500">
-          Sponsored
+          Creators
         </Typography>
         <Typography color={medium}>Create Ad</Typography>
       </FlexBetween>
@@ -24,12 +24,11 @@ const AdvertWidget = () => {
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
-        <Typography color={main}>MikaCosmetics</Typography>
-        <Typography color={medium}>mikacosmetics.com</Typography>
+        <Typography color={main}>GirlCode Founders</Typography>
+        <Typography color={medium}>Karlie Griffin and Meroni Cervantes</Typography>
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
-        Your pathway to stunning and immaculate beauty and made sure your skin
-        is exfoliating skin and shining like light.
+      “There are two ways to write error-free programs; only the third works.”
       </Typography>
     </WidgetWrapper>
   );
