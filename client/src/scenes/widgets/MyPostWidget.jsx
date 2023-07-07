@@ -135,7 +135,7 @@ import {
             <>
               <FlexBetween gap="0.25rem">
                 <GifBoxOutlined sx={{ color: mediumMain }} />
-                <Typography color={mediumMain}>Clip</Typography>
+                <Typography color={mediumMain}>Video</Typography>
               </FlexBetween>
   
               <FlexBetween gap="0.25rem">
